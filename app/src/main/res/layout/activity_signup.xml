@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="@drawable/splash">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/createAccount"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/ambit_bold"
+                android:textSize="40sp">
+
+
+            </TextView>
+
+            <AutoCompleteTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/company_industry_et"
+                android:inputType="textCapWords"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/companyType"
+                android:drawableStart="@drawable/ic_company_type"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/ambit_regular"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black">
+
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/company_type_et"
+                android:inputType="textCapWords"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/companyType"
+                android:drawableStart="@drawable/ic_type"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/ambit_regular"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black">
+
+            </AutoCompleteTextView>
+
+            <EditText
+                android:id="@+id/company_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/et_bg"
+                android:drawableStart="@drawable/ic_company"
+                android:drawablePadding="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/companyName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/ambit_regular"
+                android:textColor="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/name_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/et_bg"
+                android:drawableStart="@drawable/ic_username"
+                android:drawablePadding="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/yourName"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/ambit_regular"
+                android:paddingEnd="10dp"
+                android:textColor="@color/black">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

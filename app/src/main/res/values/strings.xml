@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">CompanyQuizApp</string>
+
+    <string name="survey">Let\'s survey</string>
+
+    <string name="typeEmail">Type your email</string>
+    <string name="typePassword">Type your password</string>
+
+    <string name="login">Login</string>
+    <string name="signUp">Create account</string>
+
+    <string name="newUser">Are you new here ?</string>
+    <string name="createAccount">Create account</string>
+
+    <string name="showPass">Show password</string>
+
+    <string name="companyName">Company name</string>
+    <string name="companyIndus">Select industry</string>
+    <string name="companyType">Select company type</string>
+    <string name="yourName">Your name</string>
+
+    
+    <string-array name="industries">
+
+        <item>Select industry</item>
+        <item>Accounting</item>
+        <item>Airlines</item>
+        <item>Alternative Dispute Resolution</item>
+        <item>Alternative Medicine</item>
+        <item>Animation</item>
+        <item>Apparel and Fashion</item>
+        <item>Architecture</item>
+        <item>Arts and Crafts</item>
+        <item>Automotive</item>
+        <item>Aviation and Aerospace</item>
+        <item>Banking</item>
+        <item>Biotechnology</item>
+        <item>Broadcast Media</item>
+        <item>Building Materials</item>
+        <item>Business Supplies and Equipments</item>
+        <item>Capital Markets</item>
+        <item>Chemicals</item>
+        <item>Civic and Social Organization</item>
+        <item>Civil Engineering</item>
+        <item>Commercial Real State</item>
+        <item>Computer and Network Security</item>
+        <item>Computer Games</item>
+        <item>Computer Hardware</item>
+        <item>Computer Networking</item>
+        <item>Computer Software</item>
+        <item>Construction</item>
+        <item>Consumer Electronics</item>
+        <item>Consumer Goods</item>
+        <item>Consumer Services</item>
+        <item>Cosmetics</item>
+        <item>Dairy</item>
+        <item>Defense and Space</item>
+        <item>Design</item>
+        <item>E Learning</item>
+        <item>Education Management</item>
+        <item>Electrical and Electronics Management</item>
+        <item>Entertainment</item>
+        <item>Environmental Services</item>
+        <item>Events Services</item>
+        <item>Executive Office</item>
+        <item>Facilities Services</item>
+        <item>Farming</item>
+        <item>Financial Services</item>
+        <item>Fine Art</item>
+        <item>Fishery</item>
+        <item>Food and Beverages</item>
+        <item>Food Production</item>
+        <item>Fundraising</item>
+        <item>Furniture</item>
+        <item>Gambling and Casinos</item>
+        <item>Glass, Ceramics and Concrete</item>
+        <item>Government Administration</item>
+        <item>Government Relations</item>
+        <item>Graphic Design</item>
+        <item>Health, Wellness and Fitness</item>
+        <item>Higher Education</item>
+        <item>Hospital and Health Care</item>
+        <item>Hospitality</item>
+        <item>Human Resources</item>
+        <item>Import and Export</item>
+        <item>Information Services</item>
+        <item>Insurance</item>
+        <item>International Affairs</item>
+        <item>Internet</item>
+        <item>Investment Banking</item>
+        <item>Investment Management</item>
+        <item>Judiciary</item>
+        <item>Law Enforcement</item>
+        <item>Law Practice</item>
+        <item>Legal Services</item>
+        <item>Legislative Office</item>
+        <item>Leisure, Travel and Tourism</item>
+        <item>Libraries</item>
+        <item>Logistics and Supply Chain</item>
+        <item>Luxury Goods and Jewelry</item>
+        <item>Machinery</item>
+        <item>Management Consulting</item>
+        <item>Maritime</item>
+        <item>Market Research</item>
+        <item>Marketing</item>
+        <item>Media Production</item>
+        <item>Medical Device</item>
+        <item>Medical Practice</item>
+        <item>Military</item>
+        <item>Mining and Metals</item>
+        <item>Motion Pictures</item>
+        <item>Institutions</item>
+        <item>Music</item>
+        <item>Nanotechnology</item>
+        <item>Newspapers</item>
+        <item>Oil and Energy</item>
+        <item>Online Media</item>
+        <item>Packaging and Containers</item>
+        <item>Paper and Forest Products</item>
+        <item>Performing Arts</item>
+        <item>Photography</item>
+        <item>Plastics</item>
+        <item>Political Organization</item>
+        <item>Printing</item>
+        <item>Professional Training and Coaching</item>
+        <item>Public Policy</item>
+        <item>Public Safety</item>
+        <item>Railroad Manufacturing</item>
+        <item>Ranching</item>
+        <item>Real Estate</item>
+        <item>Religious Institutions</item>
+        <item>Research</item>
+        <item>Restaurants</item>
+        <item>Retail</item>
+        <item>Sports Goods</item>
+        <item>Super Market</item>
+        <item>Textiles</item>
+        <item>Think Tanks</item>
+        <item>Utilities</item>
+        <item>Veterinary</item>
+        <item>Warehousing</item>
+        <item>Wholesale</item>
+        <item>Wine and Spirits</item>
+        <item>Wireless</item>
+        <item>Writing and Editing</item>
+
+
+    </string-array>
+
+    <string-array name="companyType">
+        <item>Public</item>
+        <item>Self Employed</item>
+        <item>Government Agency</item>
+        <item>Non Profit</item>
+        <item>Self Proprietorship</item>
+        <item>Privately Held</item>
+        <item>Partnership</item>
+    </string-array>
+    
+
+</resources>
