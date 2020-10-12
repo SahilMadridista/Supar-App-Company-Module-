@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">CompanyQuizApp</string>
+    <string name="app_name">SUPAR App</string>
 
-    <string name="survey">Let\'s survey</string>
+    <!--<string name="survey">Let\'s survey</string>
 
     <string name="typeEmail">Type your email</string>
     <string name="typePassword">Type your password</string>
@@ -17,10 +17,10 @@
     <string name="companyName">Company name</string>
     <string name="companyIndus">Select industry</string>
     <string name="companyType">Select company type</string>
-    <string name="yourName">Your name</string>
+    <string name="yourName">Your name</string>-->
 
     
-    <string-array name="industries">
+    <!--<string-array name="industries">
 
         <item>Select industry</item>
         <item>Accounting</item>
@@ -144,10 +144,9 @@
         <item>Wireless</item>
         <item>Writing and Editing</item>
 
+    </string-array>-->
 
-    </string-array>
-
-    <string-array name="companyType">
+    <!--<string-array name="companyType">
         <item>Public</item>
         <item>Self Employed</item>
         <item>Government Agency</item>
@@ -155,7 +154,7 @@
         <item>Self Proprietorship</item>
         <item>Privately Held</item>
         <item>Partnership</item>
-    </string-array>
+    </string-array>-->
     
 
 </resources>

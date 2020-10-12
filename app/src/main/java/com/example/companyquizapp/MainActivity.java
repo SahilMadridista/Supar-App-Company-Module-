@@ -2,20 +2,8 @@ package com.example.companyquizapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.view.ViewCompat;
-
-import android.app.Activity;
-import android.app.ActivityOptions;
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.transition.Fade;
-import android.util.Pair;
-import android.view.View;
 import android.widget.TextView;
-
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
 
       final TextView SplashText;
 
-      SplashText = findViewById(R.id.splash_text);
+      /*SplashText = findViewById(R.id.splash_text);
       ParentLayout = findViewById(R.id.parent_layout);
 
-      SplashText.animate().alpha(1).setDuration(500);
+      SplashText.animate().alpha(1).setDuration(500);*/
 
 
-      Fade fade = new Fade();
+      /*Fade fade = new Fade();
       View decor = getWindow().getDecorView();
       fade.excludeTarget(decor.findViewById(R.id.action_bar_container), true);
       fade.excludeTarget(android.R.id.statusBarBackground, true);
@@ -50,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent, options.toBundle());
             finish();
          }
-      },1500);
+      },1500);*/
 
    }
 
